@@ -11,6 +11,7 @@
 		5C48973B288280820006F4E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C48973A288280820006F4E8 /* ContentView.swift */; };
 		5C48973D288280830006F4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C48973C288280830006F4E8 /* Assets.xcassets */; };
 		5C489740288280830006F4E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C48973F288280830006F4E8 /* Preview Assets.xcassets */; };
+		5C48974A288282140006F4E8 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C489749288282140006F4E8 /* DragGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5C48973A288280820006F4E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C48973C288280830006F4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C48973F288280830006F4E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C489749288282140006F4E8 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5C489738288280820006F4E8 /* SandBoxApp.swift */,
 				5C48973A288280820006F4E8 /* ContentView.swift */,
+				5C489746288281ED0006F4E8 /* DragGesture */,
 				5C48973C288280830006F4E8 /* Assets.xcassets */,
 				5C48973E288280830006F4E8 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				5C48973F288280830006F4E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C489746288281ED0006F4E8 /* DragGesture */ = {
+			isa = PBXGroup;
+			children = (
+				5C489749288282140006F4E8 /* DragGestureView.swift */,
+			);
+			path = DragGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C48973B288280820006F4E8 /* ContentView.swift in Sources */,
+				5C48974A288282140006F4E8 /* DragGestureView.swift in Sources */,
 				5C489739288280820006F4E8 /* SandBoxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
