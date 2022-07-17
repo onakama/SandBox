@@ -21,14 +21,14 @@ struct DragGestureView: View {
                         + value.translation.height
                 )
             }
-            .onEnded{ value in
-                self.position = CGSize(
-                    width: value.startLocation.x
-                        + value.translation.width,
-                    height: value.startLocation.y
-                        + value.translation.height
-                )
-            }
+//            .onEnded{ value in
+//                self.position = CGSize(
+//                    width: value.startLocation.x
+//                        + value.translation.width,
+//                    height: value.startLocation.y
+//                        + value.translation.height
+//                )
+//            }
             
         }
     

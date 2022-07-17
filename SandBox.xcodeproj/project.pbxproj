@@ -13,6 +13,8 @@
 		5C489740288280830006F4E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C48973F288280830006F4E8 /* Preview Assets.xcassets */; };
 		5C48974A288282140006F4E8 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C489749288282140006F4E8 /* DragGestureView.swift */; };
 		5C48974D28828ECC0006F4E8 /* GobGobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C48974C28828ECC0006F4E8 /* GobGobView.swift */; };
+		5C4897562882A7300006F4E8 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4897552882A7300006F4E8 /* CellView.swift */; };
+		5C4897582882ABD80006F4E8 /* PieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4897572882ABD80006F4E8 /* PieceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		5C48973F288280830006F4E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C489749288282140006F4E8 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		5C48974C28828ECC0006F4E8 /* GobGobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GobGobView.swift; sourceTree = "<group>"; };
+		5C4897552882A7300006F4E8 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		5C4897572882ABD80006F4E8 /* PieceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				5C48974C28828ECC0006F4E8 /* GobGobView.swift */,
+				5C4897572882ABD80006F4E8 /* PieceView.swift */,
+				5C4897552882A7300006F4E8 /* CellView.swift */,
 			);
 			path = GobGob;
 			sourceTree = "<group>";
@@ -160,7 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C48973B288280820006F4E8 /* ContentView.swift in Sources */,
+				5C4897562882A7300006F4E8 /* CellView.swift in Sources */,
 				5C48974A288282140006F4E8 /* DragGestureView.swift in Sources */,
+				5C4897582882ABD80006F4E8 /* PieceView.swift in Sources */,
 				5C48974D28828ECC0006F4E8 /* GobGobView.swift in Sources */,
 				5C489739288280820006F4E8 /* SandBoxApp.swift in Sources */,
 			);
